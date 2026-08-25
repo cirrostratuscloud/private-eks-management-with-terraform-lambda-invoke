@@ -1,0 +1,6 @@
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform
+kube_crud/.build/
+kube_crud/src/bin/

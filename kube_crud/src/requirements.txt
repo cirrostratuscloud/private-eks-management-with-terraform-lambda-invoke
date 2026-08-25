@@ -1,0 +1,4 @@
+# The handler relies only on the Python standard library and boto3/botocore,
+# which are provided by the Lambda Python runtime. No extra packages are
+# installed into the deployment package. If you add dependencies here, add a
+# pip build step before the archive is created.

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ .Values.namespace }}
+  labels:
+    managed-by: kube-crud-lambda
+    app.kubernetes.io/managed-by: {{ .Release.Service }}

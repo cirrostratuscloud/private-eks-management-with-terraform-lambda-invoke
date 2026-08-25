@@ -1,0 +1,4 @@
+namespace: demo-helm
+configMap:
+  environment: blog-demo
+  managed_by: kube-crud-lambda-helm
