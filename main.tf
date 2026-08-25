@@ -79,8 +79,8 @@ module "eks" {
   vpc_id     = module.vpc.vpc_id
   subnet_ids = module.vpc.private_subnets
 
-  create_kms_key    = false
-  encryption_config = null
+  create_kms_key                           = false
+  encryption_config                        = null
   enable_cluster_creator_admin_permissions = true
 }
 
